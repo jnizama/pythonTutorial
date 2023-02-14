@@ -1,0 +1,7 @@
+import math
+
+
+def ratio():
+    _PI = math.pi
+    _RESTO = math.remainder(33, 2)
+    return _PI, _RESTO
