@@ -7,6 +7,7 @@ from my_classes import *
 from files import *
 from environment import *
 
+
 FILE = "d:\\hosts"
 
 
@@ -92,5 +93,4 @@ if __name__ == '__main__':
     # list files of my documents
     path = os.environ['USERPROFILE']
     files = get_all_files_from__my_documents()
-    for file in files:
-        print(file)
+
